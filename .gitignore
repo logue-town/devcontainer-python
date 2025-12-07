@@ -1,0 +1,52 @@
+# Dev Containers / Docker
+.devcontainer/.env
+.devcontainer/local.env
+.docker/
+.env
+.env.*
+*.env.local
+*.envrc
+
+data/
+
+# Keep only essential Dev Container configs
+!/.devcontainer/devcontainer.json
+
+# IDEs
+.idea/
+.vscode/
+.history/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+ENV/
+
+# Packaging / dist
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Tests / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+
+# Type / lint caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/

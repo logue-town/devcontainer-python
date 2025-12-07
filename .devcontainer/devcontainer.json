@@ -1,0 +1,27 @@
+{
+	"name": "Python 3.13",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			],
+			"settings": {
+				"[python]": {
+					"editor.defaultFormatter": "charliermarsh.ruff",
+					"editor.formatOnSave": true,
+					"editor.codeActionsOnSave": {
+						"source.fixAll": "explicit"
+					}
+				}
+			}
+		},
+		"jetbrains": {
+			"plugins": [
+				"com.charliermarsh.ruff-lsp"
+			]
+		}
+	}
+}
